@@ -10,7 +10,7 @@ if x>=97 and x<=122:
 elif x< 97 and x>122:
     print ("el numero presentado no pertenece a una letra o vocal minuscula del codigo ASCII")
 ```    
-## Dada una cadena de longitud 1, determine si el código ASCII de primera letra de la cadena es par o no.
+ Dada una cadena de longitud 1, determine si el código ASCII de primera letra de la cadena es par o no.
 
 Codigo:
 
@@ -23,7 +23,7 @@ if y % 2 == 0:
 else:
     print("El código ASCII de la primera letra es impar.")
 ```
-## Dado un carácter, construya un programa en Python para determinar si el carácter es un dígito o no.
+ Dado un carácter, construya un programa en Python para determinar si el carácter es un dígito o no.
 ```
 x=input("Escriba en el siguiente espacio por favor:")
 if x>= '0' and x<='9':
@@ -31,7 +31,7 @@ if x>= '0' and x<='9':
 else:
     print ("no es un digito")
 ```
-## Dado un número real x, construya un programa que permita determinar si el número es positivo, negativo o cero. Para cada caso de debe imprimir el texto que se especifica a continuación:
+Dado un número real x, construya un programa que permita determinar si el número es positivo, negativo o cero. Para cada caso de debe imprimir el texto que se especifica a continuación:
 Positivo: "El número x es positivo"
 Negativo: "El número x es negativo"
 Cero (0): "El número x es el neutro para la suma"
@@ -44,7 +44,7 @@ elif x==0:
 elif x<0:
     print("El número x es negativo")
 ```
-### Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.
+Dado el centro y el radio de un círculo, determinar si un punto de R2 pertenece o no al interior del círculo.
 
 ```
 x=float
@@ -59,7 +59,7 @@ else:
   print("El punto marcado esta fuera del area del circulo")  
   
 ```
-### Dadas tres longitudes positivas, determinar si con esas longitudes se puede construir un triángulo.
+Dadas tres longitudes positivas, determinar si con esas longitudes se puede construir un triángulo.
 
 ```
 a: float
